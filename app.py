@@ -256,6 +256,43 @@ def practicals():
         <p><strong>Break-even:</strong> The business must sell enough chairs to recover its fixed costs and initial investment. Actual break-even depends on fixed expenses and other operating costs.</p>
         <p><strong>Outcome:</strong> Financial planning can help estimate investment needs, costs, revenue and future growth.</p>
       </section>
+      <section class="card card-content">
+  <h2>5. Business Risk Assessment and Mitigation</h2>
+  <p>This practical identifies possible business risks that may affect Flex Chair India and suggests solutions to reduce them.</p>
+  <table>
+    <tr><th>Business Risk</th><th>Possible Solution</th></tr>
+    <tr><td>Raw material shortage</td><td>Maintain safety stock and develop multiple suppliers.</td></tr>
+    <tr><td>Machine breakdown</td><td>Regular maintenance and timely repairs.</td></tr>
+    <tr><td>Financial problems</td><td>Prepare budgets and monitor cash flow.</td></tr>
+    <tr><td>Market competition</td><td>Improve product quality, pricing and customer service.</td></tr>
+  </table>
+  <p><strong>Outcome:</strong> Better risk management and business stability.</p>
+</section>
+
+<section class="card card-content">
+  <h2>6. ESG Integration and Impact Measurement</h2>
+  <p>This practical focuses on Environmental, Social and Governance (ESG) activities at Flex Chair India.</p>
+  <ul>
+    <li><strong>Environmental:</strong> Reduce manufacturing waste, recycle materials and save electricity.</li>
+    <li><strong>Social:</strong> Ensure employee safety, fair treatment and a healthy workplace.</li>
+    <li><strong>Governance:</strong> Follow ethical business practices, maintain transparent records and treat customers fairly.</li>
+  </ul>
+  <p><strong>Impact Measurement:</strong> Track electricity consumption, material waste, workplace safety records and customer complaints regularly.</p>
+  <p><strong>Outcome:</strong> A more responsible, ethical and sustainable business.</p>
+</section>
+
+<section class="card card-content">
+  <h2>7. Team and Culture Scaling Exercise</h2>
+  <p>This practical explains how Flex Chair India can increase its workforce as the business grows.</p>
+  <ul>
+    <li>Hire skilled workers for manufacturing, sales and customer service.</li>
+    <li>Assign clear responsibilities to every team member.</li>
+    <li>Provide training on machines, product quality and workplace safety.</li>
+    <li>Encourage communication, teamwork and cooperation.</li>
+    <li>Recognise good performance and provide opportunities for growth.</li>
+  </ul>
+  <p><strong>Outcome:</strong> A skilled, motivated and well-organised team that supports business expansion.</p>
+</section>
     </main>
     """)
 
