@@ -197,6 +197,67 @@ def contact():
       <a class="btn" href="{{ url_for('orders') }}">SEND AN ENQUIRY</a>
     </div></main>
     """)
+@app.route("/practicals")
+def practicals():
+    return page("Practical Work", "practicals", """
+    <main class="container">
+      <div class="gold">FLEX CHAIR INDIA</div>
+      <h1>Business <span class="gold">Practicals</span></h1>
+
+      <section class="card card-content">
+        <h2>1. Sustainability Audit of a Startup</h2>
+        <p>This practical evaluates the environmental, social and economic sustainability of Flex Chair India.</p>
+        <ul>
+          <li>Use raw materials efficiently and reduce manufacturing waste.</li>
+          <li>Explore recyclable and eco-friendly materials.</li>
+          <li>Maintain safe and fair working conditions.</li>
+          <li>Control production costs while maintaining product quality.</li>
+        </ul>
+        <p><strong>Outcome:</strong> A responsible and sustainable chair manufacturing business.</p>
+      </section>
+
+      <section class="card card-content">
+        <h2>2. Scalable Business Model Redesign</h2>
+        <p>The business model can be improved to increase production and sales.</p>
+        <ul>
+          <li>Develop online sales through the company website.</li>
+          <li>Use digital tools to manage orders and customer enquiries.</li>
+          <li>Build partnerships with furniture dealers and offices.</li>
+          <li>Increase production gradually according to demand.</li>
+        </ul>
+        <p><strong>Outcome:</strong> A business model that can grow without losing quality.</p>
+      </section>
+
+      <section class="card card-content">
+        <h2>3. Supply Chain and Operations Scaling Plan</h2>
+        <p>A reliable supply chain helps the company manufacture and deliver chairs on time.</p>
+        <ul>
+          <li>Identify dependable raw material suppliers.</li>
+          <li>Compare material prices and quality before purchasing.</li>
+          <li>Maintain stock records of raw materials and finished chairs.</li>
+          <li>Plan production according to customer orders.</li>
+          <li>Monitor packaging, transport and delivery costs.</li>
+        </ul>
+        <p><strong>Outcome:</strong> Better inventory control and timely customer delivery.</p>
+      </section>
+
+      <section class="card card-content">
+        <h2>4. Financial Projections for Scaling</h2>
+        <p>The following figures are illustrative sample estimates for an academic project, not actual company financial records.</p>
+        <table>
+          <tr><th>Particulars</th><th>Sample Amount</th></tr>
+          <tr><td>Initial investment</td><td>₹2,00,000</td></tr>
+          <tr><td>Cost per chair</td><td>₹2,000</td></tr>
+          <tr><td>Selling price per chair</td><td>₹3,000</td></tr>
+          <tr><td>Monthly sales (50 chairs)</td><td>₹1,50,000</td></tr>
+          <tr><td>Monthly production cost</td><td>₹1,00,000</td></tr>
+          <tr><td>Gross contribution</td><td>₹50,000</td></tr>
+        </table>
+        <p><strong>Break-even:</strong> The business must sell enough chairs to recover its fixed costs and initial investment. Actual break-even depends on fixed expenses and other operating costs.</p>
+        <p><strong>Outcome:</strong> Financial planning can help estimate investment needs, costs, revenue and future growth.</p>
+      </section>
+    </main>
+    """)
 
 if __name__ == "__main__":
     app.run(debug=True)
