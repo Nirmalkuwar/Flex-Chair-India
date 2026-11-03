@@ -66,7 +66,7 @@ BASE = """
 <header><div class="nav">
 <a class="logo" href="{{ url_for('home') }}">FLEX CHAIR</a>
 <nav>
-{% for endpoint, label in [('home','Home'),('about','About Us'),('products','Products'),('gallery','Gallery'),('orders','Orders'),('contact','Contact')] %}
+{% for endpoint, label in [('home','Home'),('about','About Us'),('products','Products'),('gallery','Gallery'),('practicals','Practicals'),('orders','Orders'),('contact','Contact')] %}
 <a href="{{ url_for(endpoint) }}" class="{{ 'active' if active == endpoint else '' }}">{{ label }}</a>
 {% endfor %}
 </nav></div></header>
