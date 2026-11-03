@@ -8,8 +8,9 @@ app.secret_key = "change-this-secret-key"
 
 # EDIT THESE DETAILS FOR YOUR BUSINESS
 BUSINESS_NAME = "FLEX CHAIR"
-PHONE = "YOUR_PHONE_NUMBER"
-EMAIL = "your-email@example.com"
+OWNER_NAME = "Shweta Kulkarni"
+PHONE = "8149736651"
+EMAIL = "shwetakulkarni685@gmail.com"
 ADDRESS = "Your city, Maharashtra, India"
 
 PRODUCTS = [
@@ -189,6 +190,7 @@ def contact():
     <p>Contact Flex Chair for product details, current prices, bulk orders and business enquiries.</p>
     <div class="card card-content">
       <p><strong class="gold">Business:</strong> {{ business_name }}</p>
+      <p><strong class="gold">Company Owner:</strong> Shweta Kulkarni</p>
       <p><strong class="gold">Phone:</strong> {{ phone }}</p>
       <p><strong class="gold">Email:</strong> {{ email }}</p>
       <p><strong class="gold">Address:</strong> {{ address }}</p>
